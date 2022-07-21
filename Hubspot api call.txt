@@ -1,0 +1,15 @@
+Get code.....................
+https://app.hubspot.com/oauth/authorize?client_id=30773ea2-f65e-4dcd-8a97-6a4af6edf11f&scope=crm.lists.read crm.objects.deals.read crm.lists.write crm.objects.companies.write&redirect_uri=https://www.google.com/
+
+
+Get Refresh Token .......
+https://api.hubapi.com/oauth/v1/token?grant_type=authorization_code&client_id=30773ea2-f65e-4dcd-8a97-6a4af6edf11f&client_secret=fc11c5ab-3e3f-4924-a4d5-4c5acfe40615&redirect_uri=https://www.google.com/&code=e6e6ebc8-ff66-4ced-87c8-77dfda8bb219
+
+Get Access Token..........................
+
+https://api.hubapi.com/oauth/v1/token?grant_type=refresh_token&client_id=30773ea2-f65e-4dcd-8a97-6a4af6edf11f&client_secret=fc11c5ab-3e3f-4924-a4d5-4c5acfe40615&refresh_token=7a79aba2-e08a-49a3-a7ff-42b7e792f87b
+
+
+
+crm.lists.read crm.objects.deals.read crm.lists.write crm.objects.companies.write crm.objects.contacts.write crm.objects.companies.read crm.objects.contacts.read crm.objects.deals.write crm.objects.line_items.write crm.objects.line_items.read crm.objects.quotes.write crm.objects.owners.read crm.objects.quotes.read crm.schemas.companies.read crm.schemas.contacts.read crm.schemas.deals.read crm.schemas.line_items.read crm.schemas.quotes.read crm.schemas.companies.write crm.schemas.contacts.write crm.schemas.deals.write accounting actions analytics.behavioral_events.send automation business-intelligence cms.knowledge_base.articles.publish cms.knowledge_base.articles.read cms.knowledge_base.articles.write cms.knowledge_base.settings.read cms.knowledge_base.settings.write communication_preferences.read communication_preferences.read_write content communication_preferences.write conversations.read
+conversations.visitor_identification.tokens.create conversations.write crm.import crm.objects.custom.read crm.objects.custom.write crm.objects.feedback_submissions.read crm.objects.marketing_events.read crm.objects.marketing_events.write crm.schemas.custom.read e-commerce files files.ui_hidden.read forms forms-uploaded-files hubdb integration-sync media_bridge.read media_bridge.write oauth reports sales-email-read settings.billing.write settings.users.read settings.users.teams.write settings.users.teams.read settings.users.write tickets timeline transactional-email social
