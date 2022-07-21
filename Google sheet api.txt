@@ -1,0 +1,47 @@
+refresh token..........................................................................................
+
+https://accounts.google.com/o/oauth2/token?refresh_token=1//04dUtOTJvhfZrCgYIARAAGAQSNwF-L9IrnbcJB3o0gYiveJqJqtGtQqT_VYIKAYSGOMgPBDPjr9IJElQLaasbEGrBzInqvydAB1k&redirect_uri=https://developers.google.com/oauthplayground&client_id=319825298674-b4jv0vm504ic4fpt7ub9oc1nms7qpofn.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token
+....................................................................................................
+
+
+
+
+
+
+
+get_token..............................................................................................................
+
+https://api.hubapi.com/marketing-emails/v1/emails/with-statistics/?hapikey=5d0af513-0ddf-41fa-b756-69b809c0125d&limit=100
+....................................................................................................
+
+
+
+
+
+batch update....................................................................................................
+url..
+https://sheets.googleapis.com/v4/spreadsheets/1amo9NLnOHxsFlYHGFZHLFw-5eidO00Wn4IDKsYTRkt8/values:batchUpdate
+header...;
+Authorization Bearer ya29.a0ARrdaM_jE0seRR4mQYW1wbzHyk6jTwzRWQltMeCm0hDjB_J8HGajYZLQbBRLJFDlGSK1LjZ6DXRCoAp1IoD8f0HfjrkaRgg_zqiQ4PtWANqxeBSUPuWAgLJrv1pg3UYyCc0wWcRDfnjPnKCCRpP9ONpui9GnWA
+Content-Type application/json
+
+body..
+
+{
+    "data":[
+        {"values":[
+            [
+            "captain",
+            "jack",
+            "jackJACKS",
+            "ROHIT",
+            "QDFG",
+            "6DFG"]
+            ],
+            "range":"Sheet2!C2:H2"
+            }],
+            "valueInputOption":"USER_ENTERED"
+    }
+
+....................................................................................................
+
